@@ -1,0 +1,51 @@
+body{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.mainContainer{
+  border: 2px solid black;
+}
+input{
+  height: 40px;
+  width: 300px;
+  margin: 20px;
+}
+button{
+  position: relative;
+  left: 5px;
+  top: 50px;
+  height: 50px;
+  width: 200px;
+}
+
+
+nav{
+  position: absolute;
+  left: 750px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  background-color: #2A2A2A;
+  color: white;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex h3{
+  margin: 0 15px;
+}
+
+nav>h1{
+  margin: 0 15px;
+}
